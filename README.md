@@ -1,6 +1,7 @@
 ---
 title : "5700 yaşındaki çiğnenmiş sakızın metagenomik öyküsü"
-author: "proje katılımcıları"
+author: "Tanya Beril Korkmaz, Şevval Aktürk, Yasemin Karakaş, Mert Peker ve Emrah Kırdök"
+date: "Mayıs 29, 2021"
 
 ---
 
