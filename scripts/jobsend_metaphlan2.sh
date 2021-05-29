@@ -9,4 +9,5 @@
 
 source /truba/home/egitim20/.bashrc
 
-echo "hello world" > result.txt
+zcat data/*.fastq.gz | metaphlan2 /dev/stdin --input_type fastq --nproc 20 -s res 
+

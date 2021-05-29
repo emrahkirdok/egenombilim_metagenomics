@@ -9,4 +9,6 @@
 
 source /truba/home/egitim20/.bashrc
 
-zcat ../data/ERR*.fastq.gz | kraken2 /dev/stdin --use-names --threads 20 --db ../databases/minikraken2_v1_8GB/ --report sample_report.txt --output sample_sequences.txt
+mkdir -p results/kraken2
+
+zcat data/ERR*.fastq.gz | kraken2 /dev/stdin --use-names --threads 20 --db databases/minikraken2_v1_8GB/ --report results/kraken2/Sythlom_report.txt --output results/kraken2/Sythlom_sequences.txt --classified-out results/kraken2/Sythlom_classified_sequences.fastq
