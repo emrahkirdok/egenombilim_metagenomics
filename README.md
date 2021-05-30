@@ -83,7 +83,7 @@ Ve referans genoma hizalayalım:
 
 ```
 sbatch scripts/jobsend_align.sh
-``` 
+```
 
 BAM dosyasından deaminasyon profillerini elde edelim. [PMDTools aracını indirmek için bu bağlantı](https://github.com/pontussk/PMDtools)
 
