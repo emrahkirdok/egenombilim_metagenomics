@@ -51,7 +51,7 @@ son
 
 ```
 sbatch scripts/jobsend_kraken2.sh
-```
+``` 
 
 ## Kraken2 sonuçlarına bakalım
 
