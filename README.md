@@ -63,9 +63,10 @@ sbatch scripts/jobsend_kraken2.sh
 
 Rapor dosyasındaki türleri alalım:
 
-``` 
+```
 awk -F"\t" '$2 > 100 && $4 == "S" ' results/kraken2/Sythlom_report.txt > results/kraken2/Sythlom_turler.txt
 ``` 
+
 Streptococcue pneumoniae ile eşleşmiş DNA dizilerinin etiketlerini alalım:
 
 
