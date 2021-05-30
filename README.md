@@ -77,11 +77,11 @@ Son olarak, bu dizileri DNA kütüphanelerinden elde edelim:
 
 ```
 sbatch scripts/jobsend_extract_sequences.sh
-``` 
+```
 
 Ve referans genoma hizalayalım:
 
-``` 
+```
 sbatch scripts/jobsend_align.sh
 ``` 
 
