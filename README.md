@@ -71,6 +71,7 @@ Streptococcue pneumoniae ile eşleşmiş DNA dizilerinin etiketlerini alalım:
 
 ``` 
 grep "Streptococcus pneumoniae" results/kraken2/Sythlom_sequences.txt | cut -f 2 > results/kraken2/streptococcus_pneumoniae_ids.txt
+
 ``` 
 
 Son olarak, bu dizileri DNA kütüphanelerinden elde edelim
