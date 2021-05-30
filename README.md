@@ -48,9 +48,9 @@ son
 
 İş göndermek için:
 
-
+```
 sbatch scripts/jobsend_kraken2.sh
-``` 
+```
 
 ## Kraken2 sonuçlarına bakalım
 
