@@ -69,7 +69,6 @@ awk -F"\t" '$2 > 100 && $4 == "S" ' results/kraken2/Sythlom_report.txt > results
 
 Streptococcue pneumoniae ile eşleşmiş DNA dizilerinin etiketlerini alalım:
 
-
 ``` 
 grep "Streptococcus pneumoniae" results/kraken2/Sythlom_sequences.txt | cut -f 2 > results/kraken2/streptococcus_pneumoniae_ids.txt
 ``` 
@@ -88,8 +87,8 @@ sbatch scripts/jobsend_align.sh
 
 BAM dosyasından deaminasyon profillerini elde edelim. [PMDTools aracını indirmek için bu bağlantı](https://github.com/pontussk/PMDtools)
 
-``` 
+```  
 cd results/streptococcus
  
 samtools view s_pneumoniae.bam | python2.7 /home/egitim20/Admin/emrah/PMDtools/pmdtools.0.60.py --deamination > PMD_temp.txt
-``` 
+```
