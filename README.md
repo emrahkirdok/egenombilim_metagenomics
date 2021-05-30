@@ -36,16 +36,17 @@ Kraken2 veritabanının indirilmesi
 
 ### Metaphlan2 ile metagenomik profilleme
 
+Şu komutu kullanın:
+
 ``` 
 sbatch scripts/jobsend_metaphlan2.sh
+
 ``` 
 
 ### Kraken2 ile taksonomik sınıflandırma
 
 ``` 
-
 sbatch scripts/jobsend_kraken2.sh
-
 ``` 
 
 ## Kraken2 sonuçlarına bakalım
@@ -89,4 +90,5 @@ BAM dosyasından deaminasyon profillerini elde edelim. [PMDTools aracını indir
 cd results/streptococcus
  
 samtools view s_pneumoniae.bam | python2.7 /home/egitim20/Admin/emrah/PMDtools/pmdtools.0.60.py --deamination > PMD_temp.txt
+
 ``` 
