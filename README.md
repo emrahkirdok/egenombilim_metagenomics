@@ -34,7 +34,7 @@ Kraken2 veritabanının indirilmesi
 
 ```
 
- ./scripts/download_kraken2_db.sh
+./scripts/download_kraken2_db.sh
 
 ```
 
@@ -51,6 +51,9 @@ sbatch scripts/jobsend_metaphlan2.sh
 son
 
 ### Kraken2 ile taksonomik sınıflandırma
+
+İş göndermek için:
+
 
 ``` 
 
