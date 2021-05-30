@@ -90,5 +90,5 @@ BAM dosyasından deaminasyon profillerini elde edelim. [PMDTools aracını indir
 ```  
 cd results/streptococcus
  
-samtools view s_pneumoniae.bam | python2.7 /home/egitim20/Admin/emrah/PMDtools/pmdtools.0.60.py --deamination > PMD_temp.txt
+samtools view s_pneumoniae.bam | python2.7 /truba/home/egitim20/Admin/emrah/PMDtools/pmdtools.0.60.py --deamination > PMD_temp.txt
 ```
