@@ -23,7 +23,7 @@ Bu prpje kapsamında, Jensen et al 2019 makalesinde elde edilen sonuçların bir
 
 DNA dosyaların indirmek için:
 
-```
+``` 
 ./scripts/download_files.sh
 ```
 
@@ -49,7 +49,6 @@ son
 İş göndermek için:
 
 
-```
 sbatch scripts/jobsend_kraken2.sh
 ``` 
 
